@@ -1,137 +1,99 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Indiana Native Plants Landscaping Guide</title>
-  <meta name="description" content="Complete faithful HTML replica of the Indiana DNR Landscaping with Native Plants PDF. All plants, sections, and headings preserved exactly.">
-  <meta name="keywords" content="Indiana native plants, landscaping, prairie, woodland, water plants, native shrubs, ferns, wildflowers">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+/* Base body styles */
+body {
+  font-family: 'Garamond', 'Palatino Linotype', serif;
+  background-color: #fff8f0;
+  color: #333;
+  margin: 0;
+  padding: 0 2rem;
+  line-height: 1.6;
+}
 
-<header>
-  <h1>Landscaping with Native Plants</h1>
-  <p>Faithful HTML replica of the Indiana DNR PDF, with scientific names italicized and linked to Wikimedia Commons.</p>
-</header>
+/* Decorative header */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #fdeedc url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Art_Nouveau_floral_border.svg/512px-Art_Nouveau_floral_border.svg.png') no-repeat bottom center;
+  background-size: 80% auto;
+  border-bottom: 3px solid #c49f6c;
+}
 
-<main>
+header h1 {
+  font-family: 'Papyrus', 'Garamond', serif;
+  font-size: 3rem;
+  color: #7b4b2d;
+  margin-bottom: 0.5rem;
+}
 
-<!-- ================= WOODS EDGE ================= -->
-<section>
-  <h2>Woods Edge (Partial Shade)</h2>
+header p {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #6b4a2c;
+}
 
-<h3>Flowers</h3>
-<ul>
-<li>Blue star willow — <a href="https://commons.wikimedia.org/wiki/Amsonia_tabernaemontana"><em>Amsonia tabernaemontana</em></a></li>
-<li>American bellflower — <a href="https://commons.wikimedia.org/wiki/Campanulastrum_americanum"><em>Campanulastrum americanum</em></a></li>
-<li>Sweet joe-pye weed — <a href="https://commons.wikimedia.org/wiki/Eupatorium_purpureum"><em>Eupatorium purpureum</em></a></li>
-<li>Dwarf crested iris — <a href="https://commons.wikimedia.org/wiki/Iris_cristata"><em>Iris cristata</em></a></li>
-<li>Great blue lobelia — <a href="https://commons.wikimedia.org/wiki/Lobelia_siphilitica"><em>Lobelia siphilitica</em></a></li>
-<li>False Solomon’s seal — <a href="https://commons.wikimedia.org/wiki/Maianthemum_racemosum"><em>Maianthemum racemosum</em></a></li>
-<li>Virginia bluebells — <a href="https://commons.wikimedia.org/wiki/Mertensia_virginica"><em>Mertensia virginica</em></a></li>
-<li>Wild bergamot — <a href="https://commons.wikimedia.org/wiki/Monarda_fistulosa"><em>Monarda fistulosa</em></a></li>
-<li>Sundrops — <a href="https://commons.wikimedia.org/wiki/Oenothera_tetragona"><em>Oenothera tetragona</em></a></li>
-<li>Stiff goldenrod — <a href="https://commons.wikimedia.org/wiki/Oligoneuron_rigidum"><em>Oligoneuron rigidum</em></a></li>
-<li>Obedient plant — <a href="https://commons.wikimedia.org/wiki/Physostegia_virginiana"><em>Physostegia virginiana</em></a></li>
-<li>Mountain mint — <a href="https://commons.wikimedia.org/wiki/Pycnanthemum_virginianum"><em>Pycnanthemum virginianum</em></a></li>
-<li>Yellow coneflower — <a href="https://commons.wikimedia.org/wiki/Ratibida_pinnata"><em>Ratibida pinnata</em></a></li>
-<li>Garden phlox — <a href="https://commons.wikimedia.org/wiki/Phlox_paniculata"><em>Phlox paniculata</em></a></li>
-<li>Zigzag goldenrod — <a href="https://commons.wikimedia.org/wiki/Solidago_flexicaulis"><em>Solidago flexicaulis</em></a></li>
-<li>Gray goldenrod — <a href="https://commons.wikimedia.org/wiki/Solidago_nemoralis"><em>Solidago nemoralis</em></a></li>
-<li>Aromatic aster — <a href="https://commons.wikimedia.org/wiki/Symphyotrichum_oblongifolium"><em>Symphyotrichum oblongifolium</em></a></li>
-<li>Spiderwort — <a href="https://commons.wikimedia.org/wiki/Tradescantia_ohioensis"><em>Tradescantia ohioensis</em></a></li>
-<li>Bird’s foot violet — <a href="https://commons.wikimedia.org/wiki/Viola_pedata"><em>Viola pedata</em></a></li>
-</ul>
+/* Section styles */
+section {
+  margin-bottom: 3rem;
+  padding: 1rem;
+  border: 2px solid #e0c9a6;
+  border-radius: 1.2rem;
+  background-color: #fff7f0;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.05);
+}
 
-<h3>Grasses</h3>
-<ul>
-<li>River oats — <a href="https://commons.wikimedia.org/wiki/Chasmanthium_latifolium"><em>Chasmanthium latifolium</em></a></li>
-</ul>
+/* Section headers */
+h2 {
+  font-family: 'Papyrus', 'Garamond', serif;
+  font-size: 2rem;
+  color: #7b4b2d;
+  border-bottom: 2px solid #c49f6c;
+  padding-bottom: 0.2rem;
+  margin-bottom: 1rem;
+}
 
-<h3>Shrubs & Trees</h3>
-<ul>
-<li>Rough-leaved dogwood — <a href="https://commons.wikimedia.org/wiki/Cornus_drummondii"><em>Cornus drummondii</em></a></li>
-<li>Witch-hazel — <a href="https://commons.wikimedia.org/wiki/Hamamelis_virginiana"><em>Hamamelis virginiana</em></a></li>
-</ul>
-</section>
+h3 {
+  font-size: 1.4rem;
+  color: #8b5c3a;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
 
-<!-- ================= WOODLAND ================= -->
-<section>
-<h2>Woodland (Shade)</h2>
+/* Plant list styles */
+ul {
+  column-count: 2;
+  column-gap: 2rem;
+  list-style-type: disc;
+  padding-left: 1rem;
+}
 
-<h3>Ferns</h3>
-<ul>
-<li>Maidenhair fern — <a href="https://commons.wikimedia.org/wiki/Adiantum_pedatum"><em>Adiantum pedatum</em></a></li>
-<li>Ostrich fern — <a href="https://commons.wikimedia.org/wiki/Matteuccia_struthiopteris"><em>Matteuccia struthiopteris</em></a></li>
-<li>Interrupted fern — <a href="https://commons.wikimedia.org/wiki/Osmunda_claytoniana"><em>Osmunda claytoniana</em></a></li>
-<li>Cinnamon fern — <a href="https://commons.wikimedia.org/wiki/Osmunda_cinnamomea"><em>Osmunda cinnamomea</em></a></li>
-<li>Royal fern — <a href="https://commons.wikimedia.org/wiki/Osmunda_regalis"><em>Osmunda regalis</em></a></li>
-<li>Christmas fern — <a href="https://commons.wikimedia.org/wiki/Polystichum_acrostichoides"><em>Polystichum acrostichoides</em></a></li>
-</ul>
+li {
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+}
 
-<h3>Flowers</h3>
-<ul>
-<li>Wild columbine — <a href="https://commons.wikimedia.org/wiki/Aquilegia_canadensis"><em>Aquilegia canadensis</em></a></li>
-<li>Wild ginger — <a href="https://commons.wikimedia.org/wiki/Asarum_canadense"><em>Asarum canadense</em></a></li>
-<li>Solomon’s seal — <a href="https://commons.wikimedia.org/wiki/Polygonatum_biflorum"><em>Polygonatum biflorum</em></a></li>
-<li>Large-flowered trillium — <a href="https://commons.wikimedia.org/wiki/Trillium_grandiflorum"><em>Trillium grandiflorum</em></a></li>
-<li>Woodland larkspur — <a href="https://commons.wikimedia.org/wiki/Delphinium_tricorne"><em>Delphinium tricorne</em></a></li>
-<li>Turtlehead — <a href="https://commons.wikimedia.org/wiki/Chelone_glabra"><em>Chelone glabra</em></a></li>
-</ul>
+/* Links to Wikimedia Commons for scientific names */
+a {
+  color: #4a7c59;
+  text-decoration: none;
+  font-style: italic;
+}
 
-<h3>Shrubs & Trees</h3>
-<ul>
-<li>Flowering dogwood — <a href="https://commons.wikimedia.org/wiki/Cornus_florida"><em>Cornus florida</em></a></li>
-<li>American hazelnut — <a href="https://commons.wikimedia.org/wiki/Corylus_americana"><em>Corylus americana</em></a></li>
-</ul>
-</section>
+a:hover {
+  text-decoration: underline;
+  color: #2f5234;
+}
 
-<!-- ================= PRAIRIE ================= -->
-<section>
-<h2>Prairie Grassland (Full Sun)</h2>
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6b4a2c;
+  margin: 2rem 0;
+}
 
-<h3>Flowers</h3>
-<ul>
-<li>Nodding wild onion — <a href="https://commons.wikimedia.org/wiki/Allium_cernuum"><em>Allium cernuum</em></a></li>
-<li>Butterfly milkweed — <a href="https://commons.wikimedia.org/wiki/Asclepias_tuberosa"><em>Asclepias tuberosa</em></a></li>
-<li>Purple coneflower — <a href="https://commons.wikimedia.org/wiki/Echinacea_purpurea"><em>Echinacea purpurea</em></a></li>
-<li>Dense blazing star — <a href="https://commons.wikimedia.org/wiki/Liatris_spicata"><em>Liatris spicata</em></a></li>
-<li>Black-eyed Susan — <a href="https://commons.wikimedia.org/wiki/Rudbeckia_hirta"><em>Rudbeckia hirta</em></a></li>
-</ul>
-
-<h3>Grasses</h3>
-<ul>
-<li>Big bluestem — <a href="https://commons.wikimedia.org/wiki/Andropogon_gerardii"><em>Andropogon gerardii</em></a></li>
-<li>Switchgrass — <a href="https://commons.wikimedia.org/wiki/Panicum_virgatum"><em>Panicum virgatum</em></a></li>
-<li>Indian grass — <a href="https://commons.wikimedia.org/wiki/Sorghastrum_nutans"><em>Sorghastrum nutans</em></a></li>
-<li>Little bluestem — <a href="https://commons.wikimedia.org/wiki/Schizachyrium_scoparium"><em>Schizachyrium scoparium</em></a></li>
-<li>Prairie dropseed — <a href="https://commons.wikimedia.org/wiki/Sporobolus_heterolepis"><em>Sporobolus heterolepis</em></a></li>
-</ul>
-</section>
-
-<!-- ================= WATER ================= -->
-<section>
-<h2>Water’s Edge (Sun)</h2>
-
-<h3>Flowers</h3>
-<ul>
-<li>Swamp milkweed — <a href="https://commons.wikimedia.org/wiki/Asclepias_incarnata"><em>Asclepias incarnata</em></a></li>
-<li>Cardinal flower — <a href="https://commons.wikimedia.org/wiki/Lobelia_cardinalis"><em>Lobelia cardinalis</em></a></li>
-</ul>
-
-<h3>Grasses & Sedges</h3>
-<ul>
-<li>Tussock sedge — <a href="https://commons.wikimedia.org/wiki/Carex_stricta"><em>Carex stricta</em></a></li>
-<li>Woolgrass — <a href="https://commons.wikimedia.org/wiki/Scirpus_cyperinus"><em>Scirpus cyperinus</em></a></li>
-</ul>
-</section>
-
-</main>
-
-<footer>
-<p>Content adapted from Indiana Department of Natural Resources. Scientific names link to free public-domain images on Wikimedia Commons.</p>
-</footer>
-
-</body>
-</html>
+/* Responsive design */
+@media (max-width: 768px) {
+  ul {
+    column-count: 1;
+  }
+}
